@@ -1,0 +1,50 @@
+{
+  "sections": [
+    {
+      "title": "Cat Jam",
+      "items": [
+        {
+          "id": "enabled",
+          "name": "Enabled",
+          "description": "Turn cat jam on/off",
+          "type": "button",
+          "bool": true,
+          "defaultParameter": true
+        },
+        {
+          "id": "followPulse",
+          "name": "Sync To Pulse",
+          "description": "Resync cat on each PulseSync pulse",
+          "type": "button",
+          "bool": true,
+          "defaultParameter": true
+        },
+        {
+          "id": "fallbackRate",
+          "name": "Fallback Speed %",
+          "description": "Playback speed when pulse sync is unavailable",
+          "type": "slider",
+          "min": 50,
+          "max": 200,
+          "step": 5,
+          "value": 100,
+          "defaultParameter": 100
+        },
+        {
+          "id": "customUrl",
+          "name": "Custom WebM URL",
+          "description": "Optional direct URL to a .webm cat animation",
+          "type": "text",
+          "buttons": [
+            {
+              "id": "url",
+              "name": "URL",
+              "text": "",
+              "defaultParameter": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
