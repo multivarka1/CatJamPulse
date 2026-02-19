@@ -4,7 +4,7 @@
   "banner": "banner.jpg",
   "author": "multivarka1",
   "description": "Cat jam addon for PulseSync (Yandex Music) with pulse-based sync.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "css": "style.css",
   "type": "script",
   "script": "script.js",
